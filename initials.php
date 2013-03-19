@@ -10,6 +10,8 @@ define('ERROR_MAIL_TO', $cfg['PROJECT_DEVELOPER_MAIL']);
 define('ERROR_MAIL_FROM', $cfg['PROJECT_MAIL_FROM']);
 define('ERROR_PROJECT_NAME', $cfg['PROJECT_NAME']);
 
+define('SEC_HASH_VALUE', $cfg['SEC_HASH_VALUE']);
+
 ini_set('SMTP', $cfg['SMTP_SERVER']);
 
 ?>
