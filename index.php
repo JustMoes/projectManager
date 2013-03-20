@@ -1,4 +1,6 @@
 <?PHP
+session_start();
+
 // Include basic files
 include_once ('configuration.php');
 include_once ('initials.php');
@@ -13,6 +15,4 @@ include_once (CONTROLLERS . 'cError.php');
 $core = new core;
 
 $core->getView($_GET['com']);
-
-
 ?>
