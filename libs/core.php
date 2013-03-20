@@ -32,7 +32,7 @@ class core {
 	private function runView($view) {
 		switch ($view) {
 			case 'login' :
-				include_once(VIEWS . 'login.php');
+				include_once(VIEWS . 'vLogin.php');
 			break;
 		}
 	}
